@@ -4,7 +4,11 @@ while (fortune !== random) {
   
  var fortune = parseInt(prompt('Give me the number from 0 to 100'));
 
-    if ( fortune > random ) {
+    if (guess < 0 || guess > 100) {
+    alert("number should be from 0 to 100, try again");
+  }
+  
+  if else ( fortune > random ) {
     alert('Yo! Your number is lower, spinning the reels')
   }
   
