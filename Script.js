@@ -8,7 +8,7 @@ while (fortune !== random) {
     alert("number should be from 0 to 100, try again");
   }
   
-  if else ( fortune > random ) {
+   else if ( fortune > random ) {
     alert('Yo! Your number is lower, spinning the reels')
   }
   
